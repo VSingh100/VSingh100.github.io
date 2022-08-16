@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Satluj Furniture </title>
+	<link rel="stylesheet" href="style.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="header">
+
+	<div class="container">
+
+		<div class="navbar">
+		<div class="logo">
+			<img src="Images/logo.jpg "   width="125px">
+		</div>
+
+		<nav>
+			<ul id="MenuItems">
+
+				<li> <a href="home.html"> Home </a>
+				<li> <a href="product.html"> Products </a>
+				<li> <a href=""> About </a>
+				<li> <a href="Contact_Page.html"> Contact </a>
+				<li> <a href=""> Account </a>
+
+			</ul>
+		</nav>
+
+		<img src="Images/cart.png" width="30px" height="30px">
+
+		<img src="Images/menu.png"  class="menu-icon"  onclick="menutoggle()">
+
+	</div>
+
+	<div class="row">
+
+		<div class="col-2">
+			<h1> Satluj Furniture  </h1>
+
+			<p> Our lives happen around our furniture. Every day, our bed frames, dining tables, dressers, <br>  and coffee tables support us, often without thanks and appreciation  </p>
+
+			<a href="" class="btn"> Explore Now &#8594; </a>
+			
+		</div>
+
+		<div class="col-2">
+			<img src="Images/room_furni.jpg">
+
+		</div>
+
+	</div>
+
+	</div>
+
+</div>
+
+<!------------ Featured Catergories------------------->
+
+<div class="categories">
+
+	<div class="small-container">
+
+		<div class="row">
+
+		<div class="col-3">
+			<img src="Images/sofa1.jfif" width="300px" height="280px">
+		</div>
+
+		<div class="col-3">
+			<img src="Images/bed.png">
+		</div>
+
+		<div class="col-3">
+			<img src="Images/chair4.jpg">
+		</div>
+
+		</div>
+
+	</div>
+
+		</div>
+
+		<!------------------------ Footer ------------------------>
+
+	<div class="footer">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="footer-col-1">
+					<h3> Download our App <h3>
+						<p> Download App for Android and IOS Mobile Phone </p>
+
+						<div class="app-logo">
+							<img src="Images/app_logo.png">
+							<img src="Images/google_Play.png">
+
+						</div>
+				</div>
+
+				<div class="footer-col-2">
+					<img src="Images/logo.jpg">
+						<p> Our purpose is to sustainably make the pleasure and benefits of furniture 
+						      accessible to many</p>
+				</div>
+
+				<div class="footer-col-3">
+					<h3> Useful Links <h3>
+						<ul>
+							<li> Coupons </li>
+							<li> Blog Post </li>
+							<li> Return Policy </li>
+							<li> Join Affiliate </li>
+						</ul>
+				</div>
+
+				<div class="footer-col-4">
+					<h3> Follow Us <h3>
+						<ul>
+							<li> Facebook </li>
+							<li> Twitter </li>
+							<li> Instagram </li>
+							<li> Youtube </li>
+						</ul>
+				</div>
+
+			</div>
+
+		</div>
+
+		</div>
+
+
+
+		<!--------------------   JS for Toggle Menu ------------------->
+
+		<script>
+
+			var MenuItems = document.getElementById("MenuItems");
+
+			MenuItems.style.maxHeight = "0px";
+
+			function menutoggle(){
+
+				if(MenuItems.style.maxHeight == "0px";)
+				{
+					MenuItems.style.maxHeight = "200px";
+				}
+				else
+				{
+					MenuItems.style.maxHeight = "0px";
+				}
+
+			}
+
+		</script>
+
+
+	
+	
+
+	
+
+</body>
+</html>
+
